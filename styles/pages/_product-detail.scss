@@ -82,23 +82,23 @@
         }
 
         &--orange {
-            width: 30px;
-            height: 30px;
+            width: $color-box-widht;
+            height: $color-box-height;
             background-color: orange;
             margin-right: 1em;
 
         }
 
         &--black {
-            width: 30px;
-            height: 30px;
+            width: $color-box-widht;
+            height: $color-box-height;
             background-color: black;
             margin-right: 1em;
         }
 
         &--red {
-            width: 30px;
-            height: 30px;
+            width: $color-box-widht;
+            height: $color-box-height;
             background-color: red;
             margin-right: 1em;
         }
