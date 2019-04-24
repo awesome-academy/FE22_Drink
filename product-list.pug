@@ -1,0 +1,21 @@
+include includes/_head.pug
+body
+    include includes/_menu.pug
+    include includes/_menu-wine.pug
+    .wrap
+        .product-list
+            .container
+                .product-detail__tag
+                    a(href="").product-detail__tag--item Trang chủ
+                    span /
+                    a(href="").product-detail__tag--item Sản phẩm
+                    span /
+                    a(href="").product-detail__tag--item Rượu vang đỏ
+                .container-fluid.px-0
+                    img(class="product-list__banner", src="images/product-list-page/banner.jpg", alt="")
+            .container
+                .row
+                    .col-md-3.col-lg-3
+                        include includes/_side-menu.pug
+                        
+
