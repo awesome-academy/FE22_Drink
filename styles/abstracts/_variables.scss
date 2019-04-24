@@ -3,8 +3,35 @@
 $color-black: #000;
 $color-white: #fff;
 
+$color-white-light: rgba(255, 255, 255, 0.3);
 
+$color-primary: #e6ae48;
+
+$color-gray: gray;
+$color-light-gray: lightgray;
 //-----Font------
+
+
+$default-font: 'Times New Roman',
+'Roboto',
+Arial,
+sans-serif;
+$banner-main-font: 'UTM-Aquarelle',
+'Roboto',
+Arial,
+sans-serif;
+$banner-sub-font:'UVFDidot',
+'Roboto',
+Arial,
+sans-serif;
+$banner-time-main: 'Lobster',
+'Roboto',
+Arial,
+sans-serif;
+
+
+
+
 // --color-primary-alpha: rgba(0, 0, 0, 0.8);
 // --color-highlight: #e6ae48;
 
@@ -32,8 +59,3 @@ $color-white: #fff;
 // --heading-404-main-font: 'UVFAphroditePro', 'Roboto', Arial, sans-serif;
 // --heading-404-sub-font: 'Roboto', Arial, sans-serif;
 // --heading-404-under-font: 'UVFBlendaScript', 'Roboto', Arial, sans-serif;
-
-$default-font: 'Times New Roman',
-'Roboto',
-Arial,
-sans-serif;
