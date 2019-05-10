@@ -1,10 +1,5 @@
-.wrap {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.menu {
-    color: $color-gray;
+.menu-homepage {
+    color: $color-white;
     padding: 0.5em 0;
     background-color: $color-white-light;
     position: static;
@@ -17,7 +12,7 @@
     }
 
     &__link {
-        color: $color-gray;
+        color: $color-white;
 
         &:hover {
             color: $color-primary;
@@ -26,19 +21,20 @@
 
 }
 
-.search-box {
+.search-box-homepage {
     display: flex;
     justify-content: flex-end;
 
     &__button {
         border: none;
+        border-left: solid 2px $color-white;
         padding-left: 0.5em;
         background-color: rgba($color: #fff, $alpha: 0);
         height: 100%;
-        color: $color-gray;
+        color: $color-white;
 
         &::placeholder {
-            color: $color-gray;
+            color: $color-white;
         }
     }
 }
