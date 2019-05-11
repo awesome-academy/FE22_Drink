@@ -1,10 +1,12 @@
 .new-product {
     &__list {
         margin-top: 1rem;
+        text-align: center;
     }
 
     &__item {
         position: relative;
+        margin-bottom: 2rem;
     }
 
     &__img {
