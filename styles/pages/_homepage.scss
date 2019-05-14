@@ -171,10 +171,7 @@
         &::before {
             content: '';
             position: absolute;
-            width: 0%;
-            height: 1px;
-            transition: all 0.5s ease-in;
-            background-color: $color-white;
+            @include overlayHorizontal;
             top: 30%;
             left: -10%;
         }
@@ -182,10 +179,7 @@
         &::after {
             content: '';
             position: absolute;
-            width: 0%;
-            height: 1px;
-            transition: all 0.5s ease-in;
-            background-color: $color-white;
+            @include overlayHorizontal;
             bottom: 0%;
             left: -10%;
         }
@@ -214,22 +208,16 @@
             &::before {
                 content: '';
                 position: absolute;
-                width: 1px;
-                height: 0%;
-                transition: all 0.5s ease-in;
-                background-color: $color-white;
-                top: -20%;
+                @include overlayVertical;
+                top: -13%;
                 left: 0%;
             }
 
             &::after {
                 content: '';
                 position: absolute;
-                width: 1px;
-                height: 0%;
-                transition: all 0.5s ease-in;
-                background-color: $color-white;
-                top: -20%;
+                @include overlayVertical;
+                top: -13%;
                 right: 0%;
             }
         }
@@ -238,20 +226,20 @@
     // HOVER
 
     &__item:hover .gallery__line::before {
-        width: 120%;
+        width: $width-12;
     }
 
     &__item:hover .gallery__line::after {
-        width: 120%;
+        width: $width-12;
     }
 
     &__item:hover .gallery__title--main::before {
-        height: 130%;
+        height: $height-12;
 
     }
 
     &__item:hover .gallery__title--main::after {
-        height: 130%;
+        height: $height-12;
 
     }
 
