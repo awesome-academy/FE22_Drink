@@ -1230,7 +1230,7 @@ body {
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   background-color: #fff;
-  top: -20%;
+  top: -13%;
   left: 0%;
 }
 
@@ -1242,7 +1242,7 @@ body {
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   background-color: #fff;
-  top: -20%;
+  top: -13%;
   right: 0%;
 }
 
@@ -1255,11 +1255,11 @@ body {
 }
 
 .gallery__item:hover .gallery__title--main::before {
-  height: 130%;
+  height: 120%;
 }
 
 .gallery__item:hover .gallery__title--main::after {
-  height: 130%;
+  height: 120%;
 }
 
 .gallery__item:HOVER .gallery__layer {
@@ -1637,10 +1637,6 @@ body {
 
 .product-list-detail__option a i {
   margin-right: 0.5em;
-}
-
-.roduct-end {
-  color: lightgray;
 }
 
 .blog__block {
