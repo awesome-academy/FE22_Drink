@@ -470,6 +470,23 @@ body {
   border-radius: 7px;
 }
 
+.btn__form {
+  border-radius: 0;
+  font-size: 1.3em;
+  padding: 0.5em 0.5em;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.btn__form:hover {
+  background-color: #4286f4;
+}
+
+.btn__del {
+  width: 4em;
+}
+
 .btn-send-arrow {
   cursor: pointer;
   background-color: #000;
@@ -608,6 +625,29 @@ body {
 
 .read-more:hover {
   color: gray;
+}
+
+.form-main .form-control {
+  border-radius: 0;
+}
+
+.form-main .form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-main .form-check-label {
+  font-size: 1.3em;
+  margin-left: 1em;
+}
+
+.form-main .btn__form {
+  margin-right: 1.5em;
 }
 
 .wrap {
@@ -1861,5 +1901,28 @@ body {
 
 .switch-page__item:hover a {
   color: #fff;
+}
+
+.address-form {
+  margin-top: 1.5rem;
+}
+
+.address-form__heading {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.address-form__label {
+  font-size: 1.3em;
+}
+
+.address-form__link {
+  font-size: 1.5em;
+  margin-bottom: 0.725rem;
+  display: block;
+}
+
+.address-form hr {
+  margin: 2.5rem 0;
 }
 /*# sourceMappingURL=main.css.map */
