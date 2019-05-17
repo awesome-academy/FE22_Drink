@@ -17,6 +17,7 @@
         "components/_button.scss",
         "components/_product.scss",
         "components/_blog.scss",
+        "components/_form.scss",
         "layout/_all.scss",
         "layout/_menu.scss",
         "layout/_menu-wine.scss",
@@ -28,7 +29,9 @@
         "pages/_product-detail.scss",
         "pages/_product-list.scss",
         "pages/_product-list-detail.scss",
-        "pages/_blog.scss"
+        "pages/_blog.scss",
+        "pages/_blog-detail.scss",
+        "pages/_user-address.scss"
     ],
     "names": [],
     "file": "main.css"
