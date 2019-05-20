@@ -1,4 +1,4 @@
-.product-detail {
+z.product-detail {
     &__tag {
         font-size: 1.2em;
         margin: 2em 0 3em 0;
@@ -82,7 +82,7 @@
         }
 
         &--orange {
-            width: $color-box-width;
+            width: $color-box-widht;
             height: $color-box-height;
             background-color: orange;
             margin-right: 1em;
@@ -90,14 +90,14 @@
         }
 
         &--black {
-            width: $color-box-width;
+            width: $color-box-widht;
             height: $color-box-height;
             background-color: black;
             margin-right: 1em;
         }
 
         &--red {
-            width: $color-box-width;
+            width: $color-box-widht;
             height: $color-box-height;
             background-color: red;
             margin-right: 1em;
